@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBCcard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        .card {
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        .header {
+            background-color: #002145;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        .photo {
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: 120px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .barcode {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .footer {
+            background-color: #002145;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">UBCcard</div>
+        <div class="content">
+            <p class="bold">Undergraduate</p>
+            <p><span class="bold">YIYANG WANG</span><br>32386377</p>
+            <a href="1.jpg" target="_blank">
+                <img src="1.jpg" alt="Student Photo" class="photo">
+            </a>
+            <img src="barcode.jpg" alt="Barcode" class="barcode">
+            <p><span class="bold">Expiry Date:</span> 2027-08-31</p>
+        </div>
+        <div class="footer">
+            <p>A place of mind</p>
+            <p>THE UNIVERSITY OF BRITISH COLUMBIA</p>
+        </div>
+    </div>
+
+</body>
+</html>
